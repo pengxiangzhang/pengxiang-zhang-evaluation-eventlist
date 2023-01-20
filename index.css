@@ -1,0 +1,63 @@
+.event-list-app {
+  margin: auto;
+  width: 80%;
+  min-width: 300px;
+}
+
+/* [class*="-btn"] {
+  border: 0px;
+  border-radius: 10px;
+  color: #ffffff;
+} */
+
+.event-list-app__add-btn {
+    border: 0px;
+  border-radius: 10px;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  margin: 10px auto;
+  width: 30%;
+  padding: 10px;
+  background-color: #008cba;
+}
+
+table {
+  border: 2px solid #e6e2d3;
+  border-radius: 10px;
+  width: 100%;
+  margin: 20px;
+  border-spacing: 0 15px;
+}
+th {
+  font-size: 1.5rem;
+  text-align: center;
+}
+td {
+  text-align: center;
+  margin: 20px;
+}
+
+td {
+  padding: 10px 0;
+  font-size: 1.1rem;
+  background-color: #e6e2d3;
+}
+
+.event-form__input_name,
+event-form__input_start_date,
+event-form__input_end_date {
+  width: 75%;
+  border: 0;
+  border-radius: 5px;
+}
+
+input {
+  border: 0;
+  outline: 0;
+  border-radius: 5px;
+  width: 75%;
+}
+input:focus {
+  outline: none !important;
+}
