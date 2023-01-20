@@ -214,7 +214,8 @@ class EventController {
                     endDate: this.view.getClass("event-form__input_end_date").value,
                     startDate: this.view.getClass("event-form__input_start_date").value,
                 }, this.view.editEventToggle).then((data) => {
-                    this.view.appendEvent(data);
+                    
+                    this.view.getId(`Event${data.id}`).insertAdjacentHTML('afterend', this.view.generateEvent(data));
                     this.view.editEventToggle = false;
                     this.view.getId(`Event${data.id}`).remove();
                     this.view.getClass("event-form").remove();
