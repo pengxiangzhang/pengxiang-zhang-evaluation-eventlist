@@ -61,3 +61,36 @@ input {
 input:focus {
   outline: none !important;
 }
+
+.event__edit_btn{
+    width: 20%;
+    border-radius: 5px;
+    border: none;
+    background-color: #008cba;
+    fill: white !important;
+}
+
+.event__delete_btn{
+    width: 20%;
+    border-radius: 5px;
+    border: none;
+    background-color: #c94c4c;
+    fill: white !important;
+}
+.event-form__cancel-btn{
+    width: 30%;
+    border-radius: 5px;
+    border: none;
+    background-color: #c94c4c;
+    fill: white !important;
+}
+
+.event-form__save-btn{
+    width: 30%;
+    border-radius: 5px;
+    border: none;
+    background-color: #008cba;
+    fill: white !important;
+}
+
+svg{border:1px solid}
